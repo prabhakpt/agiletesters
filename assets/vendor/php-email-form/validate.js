@@ -57,7 +57,7 @@
     })
     .then(response => {
       return response.text();
-    })
+    }) 
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
       if (data.trim() == 'OK') {
